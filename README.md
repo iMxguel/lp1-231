@@ -11,7 +11,7 @@ Repositório destinado ao conteúdo de lp1;
 
 - Semana 2
 
-     - intrudoção ao git e github
+     - introdução ao git e github
 
 - Semana 3
 
