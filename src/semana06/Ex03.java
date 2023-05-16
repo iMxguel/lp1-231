@@ -1,6 +1,6 @@
 package semana06;
 
-public class Ex03 {
+public Test Ex03 {
 
     @Test
     public void testCalcularVolume() {

@@ -1,3 +1,5 @@
+package semana05;
+
 import java.util.Scanner;
 
 public class Ex01 {
