@@ -2,6 +2,10 @@ package semana06;
 
 public class Ex03 {
 
+    private static double calcularVolume(double comprimento, double altura, double largura) {
+        return 0;
+    }
+
     @Test
     public void testCalcularVolume() {
         double comprimento = 30.0;
@@ -12,12 +16,19 @@ public class Ex03 {
         assertEquals(expected, actual, 0.01);
     }
 
+    @Override
+    public String toString() {
+        return "Ex03 []";
+    }
+
     private void assertEquals(double expected, double actual, double d) {
     }
     
 }
 
 import java.util.Scanner;
+
+import org.junit.jupiter.api.Test;
 
 public class Ex03 {
     public static void main(String[] args) {
@@ -78,9 +89,6 @@ public class Ex03 {
         assertEquals(expectedOutput, actualOutput);
     }
 
-    private void assertEquals(String expectedOutput, String actualOutput) {
-    }
-
     @Test
     public void testPessoaComSobrepeso() {
         String expectedOutput = "Seu IMC é 27,78 e você está classificado como com sobrepeso.\n" +
@@ -95,6 +103,9 @@ public class Ex03 {
                 "Você precisa perder 22,39 kg para chegar ao peso ideal.\n";
         String actualOutput = getProgramOutput("120\n1.70\n");
         assertEquals(expectedOutput, actualOutput);
+    }
+
+    private void assertEquals(String expectedOutput, String actualOutput) {
     }
 
     private String getProgramOutput(String input) {
