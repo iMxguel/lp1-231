@@ -1,8 +1,8 @@
 package semana11;
 
 public class Pessoa {
-    public double altura;
-    public double peso;
+    public static double altura;
+    public static double peso;
 
     public Pessoa(double d, double e) {
 	}
@@ -18,7 +18,7 @@ public class Pessoa {
         } else if (imc < 25) {
             return "NORMAL";
         } else if (imc < 30) {
-            return "SOBREPESO";
+            return "SOBRE";
         } else {
             return "OBESO";
         }
