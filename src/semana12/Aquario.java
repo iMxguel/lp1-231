@@ -1,9 +1,15 @@
 package semana12;
 
 public class Aquario {
+<<<<<<< HEAD
     private double comprimento;
     private double altura;
     private double largura;
+=======
+    public double comprimento;
+    public double altura;
+    public double largura;
+>>>>>>> b5c7d61309e2ca3db91067eb4c187d4b937d9081
 
     public Aquario(double comprimento, double altura, double largura) {
         this.comprimento = comprimento;
@@ -11,6 +17,7 @@ public class Aquario {
         this.largura = largura;
     }
 
+<<<<<<< HEAD
     public Aquario(double valorUnico) {
         this.comprimento = valorUnico;
         this.altura = valorUnico;
@@ -42,4 +49,10 @@ public class Aquario {
     public Double getAltura() {
         return null;
     }
+=======
+    public double calcularVolume(double comprimento, double altura, double largura) {
+        return comprimento * altura * largura;
+    }
+
+>>>>>>> b5c7d61309e2ca3db91067eb4c187d4b937d9081
 }

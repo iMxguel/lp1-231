@@ -3,6 +3,7 @@ package semana12;
 public class Pessoa {
     public double altura;
     public double peso;
+<<<<<<< HEAD
 
     public Pessoa(double altura, double peso) {
         this.altura = altura;
@@ -29,3 +30,11 @@ public class Pessoa {
     
     }
 
+=======
+    
+    public double IMC (double altura, double peso) {
+        return peso / (altura * altura);
+    }
+
+}
+>>>>>>> b5c7d61309e2ca3db91067eb4c187d4b937d9081
