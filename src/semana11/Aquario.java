@@ -6,12 +6,10 @@ public class Aquario {
     private double largura;
 
     public Aquario(double comprimento, double altura, double largura) {
-<<<<<<< HEAD
-=======
+
         this.comprimento = comprimento;
         this.altura = altura;
         this.largura = largura;
->>>>>>> b5c7d61309e2ca3db91067eb4c187d4b937d9081
     }
 
     public double calcularVolume() {
